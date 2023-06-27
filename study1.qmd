@@ -1,0 +1,59 @@
+---
+title: "bofa pptx template study 1"
+author: "Inho Park"
+format:
+  pptx:
+    reference-doc: template-bofa.pptx
+---
+
+## One Column with text and image
+### Column 1 - sub title
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel ligula vel ligula sodales euismod. In commodo in nunc a faucibus. Fusce ut est vel neque ultricies tempus. Vivamus convallis ultrices diam, vel dignissim nibh dignissim non. Suspendisse aliquam in mauris et egestas. Aenean interdum pellentesque ligula ut laoreet. Nam eu augue sit amet ex consequat porttitor eget non risus. Duis dictum est eu placerat efficitur. In fermentum dictum lorem, eu vehicula dui semper a. Quisque ante erat, consequat non pellentesque in, maximus id dui. Maecenas mattis aliquet neque, vel ornare ex malesuada et.
+
+![](student-pictures-example.png)
+
+## One Column with text and image
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel ligula vel ligula sodales euismod. In commodo in nunc a faucibus. Fusce ut est vel neque ultricies tempus. Vivamus convallis ultrices diam, vel dignissim nibh dignissim non. Suspendisse aliquam in mauris et egestas. Aenean interdum pellentesque ligula ut laoreet. Nam eu augue sit amet ex consequat porttitor eget non risus. Duis dictum est eu placerat efficitur. In fermentum dictum lorem, eu vehicula dui semper a. Quisque ante erat, consequat non pellentesque in, maximus id dui. Maecenas mattis aliquet neque, vel ornare ex malesuada et.
+
+## Two Columns with text and image - title
+::::{.columns}
+
+:::{.column}
+### Column 1 - sub title
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel ligula vel ligula sodales euismod. In commodo in nunc a faucibus. Fusce ut est vel neque ultricies tempus. Vivamus convallis ultrices diam, vel dignissim nibh dignissim non. Suspendisse aliquam in mauris et egestas. Aenean interdum pellentesque ligula ut laoreet. Nam eu augue sit amet ex consequat porttitor eget non risus. Duis dictum est eu placerat efficitur. In fermentum dictum lorem, eu vehicula dui semper a. Quisque ante erat, consequat non pellentesque in, maximus id dui. Maecenas mattis aliquet neque, vel ornare ex malesuada et.
+:::
+
+:::{.column}
+
+![](student-pictures-example.png)
+:::
+
+::::
+
+## Three Columns only texts - title
+::::{.columns}
+
+:::{.column}
+### Column 1 - sub title
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel ligula vel ligula sodales euismod. In commodo in nunc a faucibus. Fusce ut est vel neque ultricies tempus. Vivamus convallis ultrices diam, vel dignissim nibh dignissim non. Suspendisse aliquam in mauris et egestas. Aenean interdum pellentesque ligula ut laoreet. Nam eu augue sit amet ex consequat porttitor eget non risus. Duis dictum est eu placerat efficitur. In fermentum dictum lorem, eu vehicula dui semper a. Quisque ante erat, consequat non pellentesque in, maximus id dui. Maecenas mattis aliquet neque, vel ornare ex malesuada et.
+:::
+
+:::{.column}
+### Column 2 - sub title
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel ligula vel ligula sodales euismod. In commodo in nunc a faucibus. Fusce ut est vel neque ultricies tempus. Vivamus convallis ultrices diam, vel dignissim nibh dignissim non. Suspendisse aliquam in mauris et egestas. Aenean interdum pellentesque ligula ut laoreet. Nam eu augue sit amet ex consequat porttitor eget non risus. Duis dictum est eu placerat efficitur. In fermentum dictum lorem, eu vehicula dui semper a. Quisque ante erat, consequat non pellentesque in, maximus id dui. Maecenas mattis aliquet neque, vel ornare ex malesuada et.
+:::
+
+:::{.column}
+### Column 3 - sub title
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel ligula vel ligula sodales euismod. In commodo in nunc a faucibus. Fusce ut est vel neque ultricies tempus. Vivamus convallis ultrices diam, vel dignissim nibh dignissim non. Suspendisse aliquam in mauris et egestas. Aenean interdum pellentesque ligula ut laoreet. Nam eu augue sit amet ex consequat porttitor eget non risus. Duis dictum est eu placerat efficitur. In fermentum dictum lorem, eu vehicula dui semper a. Quisque ante erat, consequat non pellentesque in, maximus id dui. Maecenas mattis aliquet neque, vel ornare ex malesuada et.
+:::
+
+::::
+
+## {background-color="black"}
+
+### Final thoughts
+
+- Questions? :question:    Post to discord! :grin:
