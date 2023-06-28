@@ -1,6 +1,6 @@
 ---
 title: "bofa pptx template study 1"
-author: "Inho Park"
+author: "InhoPark"
 format:
   pptx:
     reference-doc: template-bofa.pptx
