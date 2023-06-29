@@ -1,0 +1,8 @@
+---
+title: "bofa pptx template study 1"
+author: "InhoPark"
+format:
+  pptx:
+    reference-doc: template-bofa.pptx
+---
+
