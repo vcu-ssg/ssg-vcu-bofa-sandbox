@@ -93,14 +93,70 @@ Looks like background color isn't working.
 * Check to see if any of the emoji's show. (The shouldn't, PPTX is brittle and not
 easily controlled outside itself.)
 
-## Example - Title only (9)
+## Example - Disgrams
+
+- The two slides highlight diagrams:
+
+  - see: https://quarto.org/docs/authoring/diagrams.html#overview
+
+- Mermaid diagrams:
+
+  * https://mermaid.js.org/config/Tutorials.html
+
+- GraphViz diagrams:
+
+  * https://graphviz.org/gallery/
+
+- IT WOULD BE NICE to create styles (using the mermaid and graphviz) instructions
+that match with the presentation styles, so a user doesn't need to worry about styles,
+we just go for it!
 
 :::{.notes}
 notes here - slide 9, can we make a title only?
+
+NOTE - the font sizes don't look right with sub and subsub bullets!
 :::
+
+## Adding mermaid
+
+```{mermaid}
+flowchart LR
+  A[Hard edge] --> B(Round edge)
+  B --> C{Decision}
+  C --> D[Result one]
+  C --> E[Result two]
+```
+
+## Adding graphviz
+
+```{dot}
+graph G {
+  layout=neato
+  run -- intr;
+  intr -- runbl;
+  runbl -- run;
+  run -- kernel;
+  kernel -- zombie;
+  kernel -- sleep;
+  kernel -- runmem;
+  sleep -- swap;
+  swap -- runswap;
+  runswap -- new;
+  runswap -- runmem;
+  new -- runmem;
+  sleep -- runmem;
+}
+```
+
+## OK - now add some table examples
+
+In many cases, we don't know exactly what will exactly work in Powerpoint.
+
+Add more slides to study what will and won't work, and provide examples for others to leverage.
+
 
 ##
 
 :::{.notes}
-This should be a blank slide! SLIDE 10
+This should be a blank slide!
 :::
