@@ -1,22 +1,31 @@
 ---
-title: "bofa pptx template study 1"
+title: "bofa pptx - title slide (1)"
 author: "InhoPark"
 format:
   pptx:
     reference-doc: template-bofa.pptx
 ---
 
-## One Column with text and image
-### Column 1 - sub title
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel ligula vel ligula sodales euismod. In commodo in nunc a faucibus. Fusce ut est vel neque ultricies tempus. Vivamus convallis ultrices diam, vel dignissim nibh dignissim non. Suspendisse aliquam in mauris et egestas. Aenean interdum pellentesque ligula ut laoreet. Nam eu augue sit amet ex consequat porttitor eget non risus. Duis dictum est eu placerat efficitur. In fermentum dictum lorem, eu vehicula dui semper a. Quisque ante erat, consequat non pellentesque in, maximus id dui. Maecenas mattis aliquet neque, vel ornare ex malesuada et.
+## Example - Title and content (2)
 
-![](student-pictures-example.png)
+This layout is used for all slides which do not match the criteria for another layout.
 
-## One Column with text and image
+1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+1. Donec vel ligula vel ligula sodales euismod.
+1. In commodo in nunc a faucibus.
+1. Fusce ut est vel neque ultricies tempus.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel ligula vel ligula sodales euismod. In commodo in nunc a faucibus. Fusce ut est vel neque ultricies tempus. Vivamus convallis ultrices diam, vel dignissim nibh dignissim non. Suspendisse aliquam in mauris et egestas. Aenean interdum pellentesque ligula ut laoreet. Nam eu augue sit amet ex consequat porttitor eget non risus. Duis dictum est eu placerat efficitur. In fermentum dictum lorem, eu vehicula dui semper a. Quisque ante erat, consequat non pellentesque in, maximus id dui. Maecenas mattis aliquet neque, vel ornare ex malesuada et.
+::: {.notes}
+Here are some speaker notes!
 
-## Two Columns with text and image - title
+*This layout is used for all slides which do not match the criteria for another layout.*
+
+:::
+
+# Example - Section Header (3)
+
+## Example - two content (4)
+
 ::::{.columns}
 
 :::{.column}
@@ -26,13 +35,24 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel ligula vel li
 :::
 
 :::{.column}
-
-![](student-pictures-example.png)
+### Column 2 - subtitle
+![title of figure](student-pictures-example.png)
 :::
 
 ::::
 
-## Three Columns only texts - title
+## Example - Content with Caption (5)
+
+### Column 1 - sub title
+
+This layout is used for any non-two-column slides which contain text followed by non-text (e.g. an image or a table)
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel ligula vel ligula sodales euismod. In commodo in nunc a faucibus. Fusce ut est vel neque ultricies tempus. Vivamus convallis ultrices diam, vel dignissim nibh dignissim non. Suspendisse aliquam in mauris et egestas. Aenean interdum pellentesque ligula ut laoreet. Nam eu augue sit amet ex consequat porttitor eget non risus. Duis dictum est eu placerat efficitur. In fermentum dictum lorem, eu vehicula dui semper a. Quisque ante erat, consequat non pellentesque in, maximus id dui. Maecenas mattis aliquet neque, vel ornare ex malesuada et.
+
+![](student-pictures-example.png)
+
+
+## Example - three columns (should not work!) (6)
 ::::{.columns}
 
 :::{.column}
@@ -52,8 +72,91 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel ligula vel li
 
 ::::
 
+##
+
+:::{.notes}
+This should be a blank slide! SLIDE 7
+:::
+
 ## {background-color="black"}
 
-### Final thoughts
+Looks like background color isn't working.
 
-- Questions? :question:    Post to discord! :grin:
+### Example - Title and Content (8)
+
+* This is an example of a slide without a title.
+
+* This slide shows as "Title and Content"
+
+* Questions? :question:    Post to discord! :grin:
+
+* Check to see if any of the emoji's show. (The shouldn't, PPTX is brittle and not
+easily controlled outside itself.)
+
+## Example - Disgrams
+
+- The two slides highlight diagrams:
+
+  - see: https://quarto.org/docs/authoring/diagrams.html#overview
+
+- Mermaid diagrams:
+
+  * https://mermaid.js.org/config/Tutorials.html
+
+- GraphViz diagrams:
+
+  * https://graphviz.org/gallery/
+
+- IT WOULD BE NICE to create styles (using the mermaid and graphviz) instructions
+that match with the presentation styles, so a user doesn't need to worry about styles,
+we just go for it!
+
+:::{.notes}
+notes here - slide 9, can we make a title only?
+
+NOTE - the font sizes don't look right with sub and subsub bullets!
+:::
+
+## Adding mermaid
+
+```{mermaid}
+flowchart LR
+  A[Hard edge] --> B(Round edge)
+  B --> C{Decision}
+  C --> D[Result one]
+  C --> E[Result two]
+```
+
+## Adding graphviz
+
+```{dot}
+graph G {
+  layout=neato
+  run -- intr;
+  intr -- runbl;
+  runbl -- run;
+  run -- kernel;
+  kernel -- zombie;
+  kernel -- sleep;
+  kernel -- runmem;
+  sleep -- swap;
+  swap -- runswap;
+  runswap -- new;
+  runswap -- runmem;
+  new -- runmem;
+  sleep -- runmem;
+}
+```
+
+## OK - now add some table examples
+
+In many cases, we don't know exactly what will exactly work in Powerpoint.
+
+Add more slides to study what will and won't work, and provide examples for others to leverage.
+
+
+##
+
+:::{.notes}
+This should be a blank slide!
+:::
