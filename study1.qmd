@@ -1,12 +1,12 @@
 ---
 title: "bofa pptx - title slide (1)"
-author: "InhoPark"
+author: "Inho Park"
 format:
   pptx:
     reference-doc: template-bofa.pptx
 ---
 
-## Example - Title and content (2)
+## Title and Content (2)
 
 This layout is used for all slides which do not match the criteria for another layout.
 
@@ -17,81 +17,109 @@ This layout is used for all slides which do not match the criteria for another l
 
 ::: {.notes}
 Here are some speaker notes!
-
 *This layout is used for all slides which do not match the criteria for another layout.*
-
 :::
 
-# Example - Section Header (3)
 
-## Example - two content (4)
+
+
+# Section Header (3)
+
+
+
+
+## Two Content with Text Only (4)
 
 ::::{.columns}
-
-:::{.column}
-### Column 1 - sub title
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel ligula vel ligula sodales euismod. In commodo in nunc a faucibus. Fusce ut est vel neque ultricies tempus. Vivamus convallis ultrices diam, vel dignissim nibh dignissim non. Suspendisse aliquam in mauris et egestas. Aenean interdum pellentesque ligula ut laoreet. Nam eu augue sit amet ex consequat porttitor eget non risus. Duis dictum est eu placerat efficitur. In fermentum dictum lorem, eu vehicula dui semper a. Quisque ante erat, consequat non pellentesque in, maximus id dui. Maecenas mattis aliquet neque, vel ornare ex malesuada et.
-:::
-
-:::{.column}
-### Column 2 - subtitle
-![title of figure](student-pictures-example.png)
-:::
-
-::::
-
-## Example - Content with Caption (5)
-
-### Column 1 - sub title
-
-This layout is used for any non-two-column slides which contain text followed by non-text (e.g. an image or a table)
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel ligula vel ligula sodales euismod. In commodo in nunc a faucibus. Fusce ut est vel neque ultricies tempus. Vivamus convallis ultrices diam, vel dignissim nibh dignissim non. Suspendisse aliquam in mauris et egestas. Aenean interdum pellentesque ligula ut laoreet. Nam eu augue sit amet ex consequat porttitor eget non risus. Duis dictum est eu placerat efficitur. In fermentum dictum lorem, eu vehicula dui semper a. Quisque ante erat, consequat non pellentesque in, maximus id dui. Maecenas mattis aliquet neque, vel ornare ex malesuada et.
-
-![](student-pictures-example.png)
-
-
-## Example - three columns (should not work!) (6)
-::::{.columns}
-
 :::{.column}
 ### Column 1 - sub title
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel ligula vel ligula sodales euismod. In commodo in nunc a faucibus. Fusce ut est vel neque ultricies tempus. Vivamus convallis ultrices diam, vel dignissim nibh dignissim non. Suspendisse aliquam in mauris et egestas. Aenean interdum pellentesque ligula ut laoreet. Nam eu augue sit amet ex consequat porttitor eget non risus. Duis dictum est eu placerat efficitur. In fermentum dictum lorem, eu vehicula dui semper a. Quisque ante erat, consequat non pellentesque in, maximus id dui. Maecenas mattis aliquet neque, vel ornare ex malesuada et.
 :::
-
 :::{.column}
 ### Column 2 - sub title
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel ligula vel ligula sodales euismod. In commodo in nunc a faucibus. Fusce ut est vel neque ultricies tempus. Vivamus convallis ultrices diam, vel dignissim nibh dignissim non. Suspendisse aliquam in mauris et egestas. Aenean interdum pellentesque ligula ut laoreet. Nam eu augue sit amet ex consequat porttitor eget non risus. Duis dictum est eu placerat efficitur. In fermentum dictum lorem, eu vehicula dui semper a. Quisque ante erat, consequat non pellentesque in, maximus id dui. Maecenas mattis aliquet neque, vel ornare ex malesuada et.
 :::
-
-:::{.column}
-### Column 3 - sub title
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel ligula vel ligula sodales euismod. In commodo in nunc a faucibus. Fusce ut est vel neque ultricies tempus. Vivamus convallis ultrices diam, vel dignissim nibh dignissim non. Suspendisse aliquam in mauris et egestas. Aenean interdum pellentesque ligula ut laoreet. Nam eu augue sit amet ex consequat porttitor eget non risus. Duis dictum est eu placerat efficitur. In fermentum dictum lorem, eu vehicula dui semper a. Quisque ante erat, consequat non pellentesque in, maximus id dui. Maecenas mattis aliquet neque, vel ornare ex malesuada et.
-:::
-
 ::::
 
-##
 
-:::{.notes}
-This should be a blank slide! SLIDE 7
+
+
+## Two Content with mix of Text & Image (5)
+
+::::{.columns}
+:::{.column}
+### Column 1 - sub title
+Maecenas mattis aliquet neque, vel ornare ex malesuada et.Maecenas mattis aliquet neque, vel ornare ex malesuada et.Maecenas mattis aliquet neque, vel ornare ex malesuada et.
+:::
+:::{.column}
+![title of figure](student-pictures-example.png)
+:::
+::::
+
+::: {.notes}
+If using images for 'two contents', you can't have h3 sub title (## Sub title).
 :::
 
-## {background-color="black"}
 
-Looks like background color isn't working.
 
-### Example - Title and Content (8)
+## Two Content with Images Only (6)
 
-* This is an example of a slide without a title.
+::::{.columns}
+:::{.column}
+![title of figure](student-pictures-example.png)
+:::
+:::{.column}
+![title of figure](student-pictures-example.png)
+:::
+::::
 
-* This slide shows as "Title and Content"
+::: {.notes}
+If using images for 'two contents', you can't have h3 sub title (## Sub title).
+:::
 
-* Questions? :question:    Post to discord! :grin:
 
-* Check to see if any of the emoji's show. (The shouldn't, PPTX is brittle and not
-easily controlled outside itself.)
+
+
+## Comparison (7)
+
+::::{.columns}
+:::{.column}
+### Column 1 - sub title
+![title of figure](student-pictures-example.png)
+:::
+:::{.column}
+### Column 2 - sub title
+![title of figure](student-pictures-example.png)
+:::
+::::
+
+::: {.notes}
+You can only use images for both columns for 'comparison' slide. You cannot use a mix of image and text for 'comparison' slide.
+:::
+
+
+
+
+## Content with Caption (7)
+
+This layout is used for any non-two-column slides which contain text followed by non-text media (e.g. an image or a table)
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel ligula vel ligula sodales euismod. In commodo in nunc a faucibus. Fusce ut est vel neque ultricies tempus. Vivamus convallis ultrices diam, vel dignissim nibh dignissim non. Suspendisse aliquam in mauris et egestas. Aenean interdum pellentesque ligula ut laoreet. Nam eu augue sit amet ex consequat porttitor eget non risus. Duis dictum est eu placerat efficitur. In fermentum dictum lorem, eu vehicula dui semper a. Quisque ante erat, consequat non pellentesque in, maximus id dui. Maecenas mattis aliquet neque, vel ornare ex malesuada et.
+
+![title of figure](student-pictures-example.png)
+
+:::{.notes}
+Use of columns (::::{.columns}) will result use of 'two contents' or 'comparison' slides instead of 'content with caption'.
+:::
+
+
+##
+:::{.notes}
+This should be a blank slide! SLIDE 8
+:::
+
+
+# End of Example Slides
 
 ## Example - Disgrams
 
@@ -160,3 +188,5 @@ Add more slides to study what will and won't work, and provide examples for othe
 :::{.notes}
 This should be a blank slide!
 :::
+
+
